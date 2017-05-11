@@ -10,7 +10,7 @@ The audio file is required in WAV file format PCM, **mono** recording with a sam
 
 ## Run the application:
 
-> 1. Replace **your_python_bin** to your PHP binary path.
+> 1. Replace **your_python_bin** to your Python binary path.
 > 2. Replace **api_url, your_app_key, your_app_secret, your_audio_file** in accordance to your needs and your own data.
 > 3. Replace **compress_flag** to `1` if the audio file is a Speex audio, otherwise `0`
 

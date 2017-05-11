@@ -6,7 +6,7 @@ OLAMI website and documentation: [http://olami.ai](http://olami.ai)
 
 ## Run the application (by Python 3):
 
-> 1. Replace **your_python_bin** to your PHP binary path.
+> 1. Replace **your_python_bin** to your Python binary path.
 > 2. Replace **api_url, your_app_key, your_app_secret, your_text_input** in accordance to your needs and your own data.
 
 ```
