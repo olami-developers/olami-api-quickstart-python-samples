@@ -92,7 +92,7 @@ class SpeechAPISample:
         :param apiName the API name for 'api=xxx' HTTP parameter.
         :param seqValue the value of 'seq' for 'seq=xxx' HTTP parameter. '''    
     def getRecognitionResult(self, apiName, seqValue):
-        query = self.getBasicQueryString(apiName, seqValue)
+        query = self.getBasicQueryString(apiName, seqValue) + "&stop=1"
 
         '''Request speech recognition service by HTTP GET'''
         url = str(self.apiBaseUrl) + "?" + str(query)
