@@ -60,7 +60,8 @@ class NluAPISample:
         
         '''Assemble all the HTTP parameters you want to send'''
         rq = '{\"data_type\":\"stt\",\"data\":{\"input_type\":1,\"text\":\"'+inputText+'\"}}'
-        postData = 'appkey='+str(self.appKey)
+        postData = '_from=python'
+        postData += '&appkey='+str(self.appKey)
         postData +='&api='+apiName
         postData +='&timestamp='+str(timestamp)
         postData +='&sign='+str(sign)
