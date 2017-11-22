@@ -129,7 +129,8 @@ class SpeechAPISample:
         sign = md.hexdigest()
         
         '''Assemble all the HTTP parameters you want to send'''
-        postData = 'appkey='+str(self.appKey)
+        postData = '_from=python'
+        postData +='&appkey='+str(self.appKey)
         postData +='&api='+apiName
         postData +='&timestamp='+str(timestamp)
         postData +='&sign='+str(sign)
